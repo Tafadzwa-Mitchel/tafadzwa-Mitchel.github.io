@@ -1,0 +1,163 @@
+@media screen and (max-width: 1200px) {
+    header{
+        padding: 0;
+        overflow:scroll;
+    }
+    header .right-header{
+        padding: 1.5rem !important;
+    }
+    .theme-btn{
+        width:50px;
+        height: 50px;
+        margin: 1rem .3rem !important;
+    }
+     
+    //header
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 10rem;
+        .left-header{
+            display: none;
+        }
+        .right-header{
+            p{
+                text-align: left;
+            }
+            .name{
+                font-size: 2rem;
+            }
+            margin: 0 auto;
+        }
+    }
+
+    .section{
+        padding: .5rem 1rem !important;
+        width: 100%;
+    }
+
+    //controls
+    .controls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 1rem .3rem !important;//1rem .5rem;
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    //about
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+                text-align: left;
+            }
+            h4{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .about-stats{
+        padding-bottom: 7rem;
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    //portfolios
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+
+    //contact
+    .contact-content-con{
+        flex-direction: column;
+        .left-contact{
+            #hide{
+                display:none;
+            }
+        }
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+    }
+
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .contact-icon{
+        padding-bottom: 6rem;
+        a{
+            width: 50px;
+            height: 50px;
+            margin: 0 .5rem;
+            i{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    //Education
+    .education-container{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 6rem;
+        .education{
+            .education-title{
+                font-size: 1rem;
+            }
+            .education-description{
+                text-align: left;
+            }
+        }
+    }
+
+
+    //Submit button
+    .submit-btn{
+        button{
+            width: 100% !important;
+        }
+
+    }
+
+     
+    //Main title
+    .main-title{
+        padding-top: 1.9rem;
+        h2{
+            font-size: 2.5rem;
+            span{
+                font-size: 3rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+
+}
